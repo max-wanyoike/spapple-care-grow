@@ -41,7 +41,7 @@ const Header = () => {
               <img 
                 src={spappleLogo} 
                 alt="Spapple Marketing" 
-                className="h-30 w-auto"
+                className="h-21 w-auto"
               />
             </button>
           </div>
