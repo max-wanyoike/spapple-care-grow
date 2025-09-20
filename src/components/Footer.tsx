@@ -21,7 +21,7 @@ const Footer = () => {
               <img 
                 src={spappleLogo} 
                 alt="Spapple Marketing" 
-                className="h-10 w-auto"
+                className="h-16 w-auto"
               />
             </button>
           </div>
