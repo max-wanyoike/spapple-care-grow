@@ -23,7 +23,7 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center text-primary-foreground">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance text-white">
             Helping Adult Care Homes Get More Residents
           </h1>
           

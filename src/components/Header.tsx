@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import spappleLogo from '@/assets/spapple-logo.png';
 import { Menu, X } from 'lucide-react';
 
 const Header = () => {
@@ -35,9 +36,13 @@ const Header = () => {
           <div className="flex-shrink-0">
             <button 
               onClick={() => scrollToSection('hero')}
-              className="text-2xl font-bold text-primary hover:opacity-80 transition-opacity focus-visible"
+              className="hover:opacity-80 transition-opacity focus-visible"
             >
-              Spapple
+              <img 
+                src={spappleLogo} 
+                alt="Spapple Marketing" 
+                className="h-10 w-auto"
+              />
             </button>
           </div>
 
